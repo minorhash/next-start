@@ -27,8 +27,8 @@ app.prepare().then(() => {
 
   const port = process.env.PORT || 3000;
 
-  server.listen(port, err => {
-    if (err) throw err;
-    console.log(`> Ready on port ${port}...`);
-  });
+server.listen(port, err => {
+if (err) throw err;
+console.log(`> Ready on port ${port}...`);
+});
 });
